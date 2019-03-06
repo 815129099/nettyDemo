@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="test:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/test_jar</output-path>
+    <root id="archive" name="test.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="test" />
+      <element id="extracted-dir" path="C:/Program Files (x86)/Microsoft SQL Server 2000 Driver for JDBC/lib/msbase.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha2/netty-all-5.0.0.Alpha2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files (x86)/Microsoft SQL Server 2000 Driver for JDBC/lib/msutil.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/Program Files (x86)/Microsoft SQL Server 2000 Driver for JDBC/lib/mssqlserver.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
